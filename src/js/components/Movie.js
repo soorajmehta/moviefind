@@ -25,7 +25,7 @@ var Movie = React.createClass(
                                     IMDB ID : {this.props.movie.imdbID}
                                 </li>
                             </ul>
-                            <a className="btn btn-primary" href={link}>View on IMDB </a>
+                            <a className="btn btn-primary" href={link} target="_blank">View on IMDB </a>
                         </div>
                    </div>
                 </div>

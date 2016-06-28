@@ -12,11 +12,12 @@ var MovieResults = React.createClass(
                 <div>
                     <h3 className="text-center">Results</h3>
                     {
-                        this.props.movies.map(function(movie,i){
-                            return(
-                                <Movie movie={movie} key={i} />
-                            )
-                        })
+                         this.props.movies.map(function(movie,i){
+                                return(
+                                    <Movie movie={movie} key={i} />
+                                )
+                            })
+                        
                     }
                 </div>
             )

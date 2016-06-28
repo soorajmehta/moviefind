@@ -26,8 +26,8 @@ var App = React.createClass({
           AppStore.removeChangeListener(this._onChange);
             
         },
-        render: function(){
-           if(this.state.movies == ''){
+        render: function(){            
+           if(!this.state.movies || this.state.movies == ''){               
                var movieResults = '';
            }   
            else{
